@@ -70,7 +70,7 @@ public class AppConfiguration implements WebMvcConfigurer, ApplicationContextAwa
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/StaffManger");
         dataSource.setUsername("root");
-        dataSource.setPassword("");
+        dataSource.setPassword("2004");
         return dataSource;
     }
 
